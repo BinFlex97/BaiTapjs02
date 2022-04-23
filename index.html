@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container w-50">
+            <h1 style="color:blue;">Bài 1:Tính tiền lương nhân viên</h1>
+            <div class="form-group">
+                <label for="ngayLam">Nhập Số Ngày Làm :</label>
+                <input type="number" class="form-control" id="ngayLam">
+                <button onclick="Calc()" class="btn btn-info my-3">Tính</button>
+                <p id="kQ1" class="alert alert-success"></p>
+            </div>
+
+
+
+            <h1 style="color:blue;">Bài 2 : Tính Giá Trị Trung Bình</h1>
+            <p>Nhập 5 Số Thực :</p>
+            <label for="num2-1">Số thực 1 :</label>
+            <input type="number" class="form-control w-25" id="num2-1">
+            <label for="num2-2">Số thực 2 :</label>
+            <input type="number" class="form-control w-25" id="num2-2">
+            <label for="num2-3">Số thực 3 :</label>
+            <input type="number" class="form-control w-25" id="num2-3">
+            <label for="num2-4">Số thực 4 :</label>
+            <input type="number" class="form-control w-25" id="num2-4">
+            <label for="num2-5">Số thực 5 :</label>
+            <input type="number" class="form-control w-25" id="num2-5">
+            <button onclick="calcAvg()" class="btn btn-info my-3">Tính trung bình</button>
+            <p id="kQ2" class="alert alert-success"></p>
+
+
+
+
+            <h1 style="color:blue;">Bài 3:
+            Quy Đổi Tiền</h1>
+            <div class="form-group">
+                <label for="USD3">Nhập Số USD Cần Quy Đổi :</label>
+                <input type="number" class="form-control" id="USD3">
+                <button onclick="quyDoi()" class="btn btn-info my-3">Quy Đổi VNĐ</button>
+                <p id="kQ3" class="alert alert-success"></p>
+            </div>
+            
+
+
+            <h1 style="color:blue;">Bài 4: Tính diện tích HCN</h1>
+                <div class="form-group">
+                    <label for="dai4">Nhập chiều dài :</label>
+                    <input type="number" class="form-control" id="dai4">
+                    <label for="rong4">Nhập chiều rộng :</label>
+                    <input type="number" class="form-control" id="rong4">
+                    <button onclick="HCN()" class="btn btn-info my-3">Tính Chu vi và diện tích</button>
+                    <p id="kQ4" class="alert alert-success"></p>
+                </div>
+
+                <h1 style="color:blue;">Bài 5: Tính tổng 2 ký Số</h1>
+                <div class="form-group">
+                    <label for="number5">Nhập 1 số có 2 chữ Số :</label>
+                    <input type="number" class="form-control" id="number5">
+                    <button onclick="getNumber()" class="btn btn-info my-3">Lấy Số</button>
+                    <p id="kQ5" class="alert alert-success"></p>
+                </div>
+    </div>
+
+
+
+
+
+
+    <script src="./Js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
